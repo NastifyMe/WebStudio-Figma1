@@ -1,0 +1,17 @@
+.links li a:hover {
+    color: blue;
+  }
+.links a{
+    color: black;
+}
+.buttons li button:hover{
+    color: white;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+.footer{
+    background-color: #2F303A;
+}
+.footer p, a{
+    color: white;
+}

@@ -1,0 +1,25 @@
+.links li a:hover {
+    color: blue;
+  }
+.links a{
+    color: black;
+}
+#Decision button{
+    cursor: pointer;
+}
+
+#Decision{
+    background-color: #2F303A;
+}
+#Team{
+    background-color: #F5F4FA;
+}
+#Team p{
+    background-color: white;
+}
+.footer{
+    background-color: #2F303A;
+}
+.footer p, a{
+    color: white;
+}
