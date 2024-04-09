@@ -1,4 +1,8 @@
-.links li a:hover {
+:root{
+    --main-font:"Raleway", sans-serif;
+    --secondary-font:"Roboto", sans-serif;
+}
+.links li .link:hover {
     color: blue;
   }
 .links a{
