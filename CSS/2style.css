@@ -1,7 +1,8 @@
 :root{
-    --main-font:"Raleway", sans-serif;
-    --secondary-font:"Roboto", sans-serif;
+    --main-font:"Roboto", sans-serif;
+    --secondary-font:"Raleway", sans-serif;
 }
+    
 .links li a:hover {
     color: blue;
   }
