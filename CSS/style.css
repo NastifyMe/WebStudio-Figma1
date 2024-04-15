@@ -2,7 +2,7 @@
     --main-font:"Raleway", sans-serif;
     --secondary-font:"Roboto", sans-serif;
 }
-.links li .link:hover {
+.links-nav a:hover {
     color: blue;
   }
 .links a{
@@ -26,4 +26,48 @@
 }
 .footer p, a{
     color: white;
+    font-family: var(--main-font);
+    font-weight: 400;
+    size: 14px;
+}
+.profil span{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    size: 26px;
+    
+}
+.footer span{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    size: 26px;
+}
+.links a{
+    font-family: var(--main-font);
+    font-weight: 500;
+    size: 14px;
+}
+#Decision .Decision-title{
+    font-family: var(--main-font);
+    font-weight: 900;
+    size: 44px;
+}
+#Decision .Decision-button{
+    font-family: var(--main-font);
+    font-weight: 700;
+    size: 16px;
+}
+.items-doings h4{
+    font-family: var(--main-font);
+    font-weight: 700;
+    size: 14px;
+}
+.items-doings p{
+    font-family: var(--main-font);
+    font-weight: 400;
+    size: 14px;
+}
+.title-img-doings{
+    font-family: var(--main-font);
+    font-weight: 700;
+    size: 36px;
 }

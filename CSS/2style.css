@@ -1,3 +1,7 @@
+:root{
+    --main-font:"Raleway", sans-serif;
+    --secondary-font:"Roboto", sans-serif;
+}
 .links li a:hover {
     color: blue;
   }
@@ -8,10 +12,52 @@
     color: white;
     background-color: #2196F3;
     cursor: pointer;
+    font-family: var(--main-font);
+    font-weight: 500;
+    size: 16px;
 }
-.footer{
+.footer-portfolio{
     background-color: #2F303A;
 }
-.footer p, a{
+.footer-portfolio p, a{
     color: white;
+    font-family: var(--main-font);
+    font-weight: 400;
+    size: 14px
+}
+.profil-portfolio span{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    size: 26px;
+}
+.links a{
+    font-family: var(--main-font);
+    font-weight: 500;
+    size: 14px;
+}
+.title-team{
+    font-family: var(--main-font);
+    font-weight: 700;
+    size: 36px;
+}
+.team-workers p{
+    font-family: var(--main-font);
+    font-weight: 500;
+    size: 16px;
+}
+.img-portfolio .p-item{
+    font-family: var(--main-font);
+    font-weight: 700;
+    size: 18px;
+}
+.img-portfolio .p-name{
+    font-family: var(--main-font);
+    font-weight: 400;
+    size: 16px;
+    color: #757575;
+}
+.footer-portfolio span{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    size: 26px;
 }
