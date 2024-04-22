@@ -2,18 +2,20 @@
     --main-font:"Roboto", sans-serif;
     --secondary-font:"Raleway", sans-serif;
 }
-    
+main {
+    font-family: var(--main-font);
+}    
 .links li a:hover {
     color: blue;
   }
 .links a{
     color: black;
+    font-family: var(--main-font);
 }
 .buttons li button:hover{
     color: white;
     background-color: #2196F3;
     cursor: pointer;
-    font-family: var(--main-font);
     font-weight: 500;
     size: 16px;
 }
@@ -22,9 +24,10 @@
 }
 .footer-portfolio p, a{
     color: white;
-    font-family: var(--main-font);
     font-weight: 400;
-    size: 14px
+    size: 14px;
+    font-family: var(--main-font);
+    
 }
 .profil-portfolio span{
     font-family: var(--secondary-font);
@@ -32,27 +35,22 @@
     size: 26px;
 }
 .links a{
-    font-family: var(--main-font);
     font-weight: 500;
     size: 14px;
 }
 .title-team{
-    font-family: var(--main-font);
     font-weight: 700;
     size: 36px;
 }
 .team-workers p{
-    font-family: var(--main-font);
     font-weight: 500;
     size: 16px;
 }
 .img-portfolio .p-item{
-    font-family: var(--main-font);
     font-weight: 700;
     size: 18px;
 }
 .img-portfolio .p-name{
-    font-family: var(--main-font);
     font-weight: 400;
     size: 16px;
     color: #757575;

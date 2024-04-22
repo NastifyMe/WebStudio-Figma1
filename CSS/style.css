@@ -2,11 +2,16 @@
     --main-font:"Roboto", sans-serif;
     --secondary-font:"Raleway", sans-serif;
 }
+main {
+    font-family: var(--main-font);
+}
 .links-nav a:hover {
     color: blue;
+    
   }
 .links a{
     color: black;
+    font-family: var(--main-font);
 }
 #Decision button{
     cursor: pointer;
@@ -14,6 +19,8 @@
 
 #Decision{
     background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
 }
 #Team{
     background-color: #F5F4FA;
@@ -26,12 +33,12 @@
 }
 .footer p, a{
     color: white;
-    font-family: var(--main-font);
     font-weight: 400;
     size: 14px;
+    font-family: var(--main-font);
 }
 .profil span{
-    font-family: var(--secondary-font);
+    font-family: var(--secondary-font); 
     font-weight: 700;
     size: 26px;
     
@@ -42,32 +49,34 @@
     size: 26px;
 }
 .links a{
-    font-family: var(--main-font);
     font-weight: 500;
     size: 14px;
 }
 #Decision .Decision-title{
-    font-family: var(--main-font);
     font-weight: 900;
     size: 44px;
+    width: 696px;
+    height: 120px;
+    line-height: 60px;
 }
 #Decision .Decision-button{
-    font-family: var(--main-font);
     font-weight: 700;
     size: 16px;
+    border-radius: 4px;
+    margin: 0 auto;
 }
 .items-doings h4{
-    font-family: var(--main-font);
     font-weight: 700;
     size: 14px;
 }
 .items-doings p{
-    font-family: var(--main-font);
     font-weight: 400;
     size: 14px;
 }
 .title-img-doings{
-    font-family: var(--main-font);
     font-weight: 700;
     size: 36px;
+    width: 366px;
+    height: 42px;
 }
+
