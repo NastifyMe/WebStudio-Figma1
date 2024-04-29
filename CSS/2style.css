@@ -4,7 +4,13 @@
 }
 main {
     font-family: var(--main-font);
-}    
+}  
+.container {
+    width: 1600px;
+    height: 1880px;
+    margin-right: 215px; 
+    margin-left: 215px; 
+}
 .links li a:hover {
     color: blue;
   }

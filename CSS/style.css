@@ -5,6 +5,12 @@
 main {
     font-family: var(--main-font);
 }
+.container {
+    width: 1600px;
+    height: 2346px;
+    margin-right: 215px; 
+    margin-left: 215px; 
+}
 .links-nav a:hover {
     color: blue;
     
@@ -21,6 +27,7 @@ main {
     background-color: #2F303A;
     width: 1600px;
     height: 600px;
+    top: 80px;
 }
 #Team{
     background-color: #F5F4FA;
@@ -79,4 +86,5 @@ main {
     width: 366px;
     height: 42px;
 }
+
 
