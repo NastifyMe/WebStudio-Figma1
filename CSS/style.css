@@ -13,7 +13,6 @@ main {
 }
 .links-nav a:hover {
     color: blue;
-    
   }
 .links a{
     color: black;
@@ -85,6 +84,14 @@ main {
     size: 36px;
     width: 366px;
     height: 42px;
+}
+header .links{
+    display: flex;
+    flex-direction: row;
+}
+header .title{
+    display: flex;
+    justify-content: flex-start;
 }
 
 
