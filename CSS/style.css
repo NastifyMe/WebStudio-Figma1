@@ -5,93 +5,211 @@
 main {
     font-family: var(--main-font);
 }
-.container {
-    width: 1600px;
-    height: 2346px;
-    margin-right: 215px; 
-    margin-left: 215px; 
-}
-.links-nav a:hover {
+.links-nav-profil a:hover {
     color: blue;
   }
-.links a{
+.links-profil-left a, .links-profil-right a{
     color: black;
     font-family: var(--main-font);
+    display: flex;
+    
 }
 #Decision button{
     cursor: pointer;
 }
 
-#Decision{
+.container-Decision{
     background-color: #2F303A;
     width: 1600px;
     height: 600px;
-    top: 80px;
 }
-#Team{
+.Team{
     background-color: #F5F4FA;
+    width: 1600px;
+    height: 648px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
-#Team p{
+.Team p{
     background-color: white;
+    text-align: center;
+}
+.team-workers{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.team-workers img{
+    width: 270px;
+    height: 260px;
+    display: flex;
+    flex-direction: row;
+}
+.title-team{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 3%;
+    text-align: center;
+    margin-top: 94px;
+    padding-bottom: 50px;
+}
+.name-team{
+    font-weight: 600;
+    padding-top: 30px;
+    line-height: 18.75px;
+}
+.job-team{
+    color: #757575;
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
 .footer{
     background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
+    padding-top: 60px;
+    padding-left: 215px;
+    display: flex;
+    flex-direction: column;
 }
-.footer p, a{
+.footer p{
     color: white;
     font-weight: 400;
-    size: 14px;
+    font-size: 14px;
     font-family: var(--main-font);
+    text-align: left;
+    padding-top: 20px;
+}
+.footer a{
+    color: white;
+    display: flex;
+    font-size: 14px;
+    opacity: 0.6;
 }
 .profil span{
     font-family: var(--secondary-font); 
     font-weight: 700;
     size: 26px;
-    
 }
-.footer span{
+.title-profil{
     font-family: var(--secondary-font);
     font-weight: 700;
-    size: 26px;
+    font-size: 26px;
 }
-.links a{
-    font-weight: 500;
-    size: 14px;
+.container-footer{
+    display: flex;
+    flex-direction: column;
 }
-#Decision .Decision-title{
+.title-footer{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 24px;
+}
+.Decision-title{
     font-weight: 900;
     size: 44px;
-    width: 696px;
-    height: 120px;
     line-height: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 44px;
+    color: white;
+    text-align: center;
 }
-#Decision .Decision-button{
+.Decision-button{
     font-weight: 700;
     size: 16px;
     border-radius: 4px;
     margin: 0 auto;
+    background-color: #2196F3;
+    color: white;
+    width: 216px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .items-doings h4{
     font-weight: 700;
-    size: 14px;
+    font-size: 14px;
+    width: 270px;
+    height: 16px;
+    padding-bottom: 10px;
 }
 .items-doings p{
     font-weight: 400;
-    size: 14px;
+    font-size: 14px;
+    width: 270px;
+    height: 72px;
+    line-height: 24px;
+    letter-spacing: 3%;
 }
 .title-img-doings{
     font-weight: 700;
-    size: 36px;
+    font-size: 36px;
     width: 366px;
     height: 42px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
-header .links{
+ .links-profil-left{
     display: flex;
     flex-direction: row;
-}
-header .title{
-    display: flex;
     justify-content: flex-start;
+    font-size: 20px;
+    color: black; 
+}
+.links-profil-right{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    font-size: 20px;
+}
+.title-profil{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+header{
+    background-color: white;
+    width: 1600px;
+    height: 80px;
+    margin-right: 215px; 
+    margin-left: 215px;
+    padding-top: 24px;
+}
+.links-nav-profil{
+    display: flex;
+    color: black;
+}
+.container-Decision{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items-doings{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 94px;
+    margin-bottom: 94px;
+    gap: 30px;
+}
+.Doings-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 94px;
+}
+.img-doings{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
 }
 
 
