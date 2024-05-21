@@ -155,18 +155,17 @@ main {
     justify-content: center;
     text-align: center;
 }
- .links-profil-left{
+.links-profil a{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    font-size: 20px;
-    color: black; 
+    font-size: 20px; 
+    color: black;
 }
-.links-profil-right{
+.links-profil{
     display: flex;
-    justify-content: end;
     flex-direction: row;
-    font-size: 20px;
+    font-size: 20px; 
+    gap: 50px;
 }
 .title-profil{
     display: flex;
@@ -211,5 +210,7 @@ header{
     gap: 30px;
     padding-top: 50px;
 }
-
+.link-email{
+    margin-left: 344px;
+}
 

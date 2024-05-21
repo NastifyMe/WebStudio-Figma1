@@ -69,6 +69,11 @@ main {
     margin-bottom: 50px;
     border-radius: 4px;
 }
+.buttons button{
+    font-weight: 700;
+    width: 125px;
+    height: 38px;
+}
 .Img{
     display: flex;
     flex-wrap: wrap;
@@ -79,6 +84,7 @@ main {
     grid-template-columns: repeat(3, 370px);
     grid-gap: 20px;
     justify-content: center;
+    margin-bottom: 94px;
 }
 .img-portfolio img{
     width: 370px;
@@ -108,10 +114,33 @@ main {
     font-family: var(--main-font);
     text-align: left;
     padding-top: 20px;
+    margin-bottom: 9px;
 }
 .footer-portfolio a{
     color: white;
     display: flex;
     font-size: 14px;
     opacity: 0.6;
-}    
+    margin-bottom: 9px;
+}   
+.title-footer{
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 20px;
+} 
+.links{
+    display: flex;
+    flex-direction: row;
+    margin-left: 238px;
+    gap: 50px;
+    font-size: 18px;
+    font-weight: 500px;
+}
+.link-email{
+    margin-left: 344px;
+}
+.title-profil{
+    font-size: 26px;
+    margin-left: 215px;
+    margin-top: 24px;
+}
