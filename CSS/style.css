@@ -211,4 +211,18 @@ header{
 .link-email {
     margin-left: 344px;
 }
-
+.item-doings:nth-child(1)::before{
+    content: url(../images/main/Possibilities/possibilities_1.jpg);
+}
+.item-doings:nth-child(2)::before{
+    content: url(../images/main/Possibilities/possibilities_2.jpg);
+}
+.item-doings:nth-child(3)::before{
+    content: url(../images/main/Possibilities/possibilities_3.jpg);
+}
+.item-doings:nth-child(4)::before{
+    content: url(../images/main/Possibilities/possibilities_4.jpg);
+}
+.title-doings{
+    margin-top: 30px;
+}
