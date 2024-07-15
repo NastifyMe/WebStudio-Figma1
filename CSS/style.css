@@ -13,25 +13,64 @@ body {
     font-family: var(--main-font);
 
 }
+/* -----HEADER------------------------------------------------------------------------------------------ */
 
 .container-profil{
     max-width: 1170px;
+    background-color: #fff;
+    margin: 0 auto;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
 }
 .links-nav-profil a:hover {
     color: blue;
-  }
-.links-profil-left a, .links-profil-right a{
-    color: black;
-    font-family: var(--main-font);
+ }
+.title-profil span{
+    font-family: var(--secondary-font); 
+    font-weight: 700;
+    size: 26px;
     display: flex;
-    
+    flex-direction: row;
+    color: #2196F3;
+
 }
+.title-profil{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    display: flex;
+    flex-direction: row;
+}
+.links-profil a{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px; 
+    color: black;
+}
+.links-profil{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px; 
+    gap: 50px;
+}
+
+.links-nav-profil{
+    display: flex;
+    color: black;
+}
+.link-email {
+    margin-left: 344px;
+}
+/* ------------------------------------------------------------------------------------------------------- */
 #Decision button{
     cursor: pointer;
 }
 
 .container-Decision{
-    background-color: #2F303A;
+    background-image: url(../images/main/Decision/Decision_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 1600px;
     height: 600px;
 }
@@ -102,16 +141,7 @@ body {
     font-size: 14px;
     opacity: 0.6;
 }
-.profil span{
-    font-family: var(--secondary-font); 
-    font-weight: 700;
-    size: 26px;
-}
-.title-profil{
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    font-size: 26px;
-}
+
 .container-footer{
     display: flex;
     flex-direction: column;
@@ -166,35 +196,7 @@ body {
     justify-content: center;
     text-align: center;
 }
-.links-profil a{
-    display: flex;
-    flex-direction: row;
-    font-size: 20px; 
-    color: black;
-}
-.links-profil{
-    display: flex;
-    flex-direction: row;
-    font-size: 20px; 
-    gap: 50px;
-}
-.title-profil{
-    display: flex;
-    flex-direction: row;
-    font-size: 30px;
-}
-header{
-    background-color: white;
-    width: 1600px;
-    height: 80px;
-    margin-right: 215px; 
-    margin-left: 215px;
-    padding-top: 24px;
-}
-.links-nav-profil{
-    display: flex;
-    color: black;
-}
+
 .container-Decision{
     display: flex;
     justify-content: center;
@@ -221,9 +223,7 @@ header{
     gap: 30px;
     padding-top: 50px;
 }
-.link-email {
-    margin-left: 344px;
-}
+
 .item-doings:nth-child(1)::before{
     content: url(../images/main/Possibilities/possibilities_1.jpg);
 }
