@@ -1,246 +1,50 @@
-html{
-    box-sizing: border-box;
-}
-*, *::before, *::after{
-    box-sizing: inherit;
+html {
+  box-sizing: border-box;
 }
 
-:root{
-    --main-font:"Roboto", sans-serif;
-    --secondary-font:"Raleway", sans-serif;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
+
+:root {
+  --main-font:"Roboto", sans-serif;
+  --secondary-font:"Raleway", sans-serif;
+}
+
 body {
-    font-family: var(--main-font);
-
-}
-/* -----HEADER------------------------------------------------------------------------------------------ */
-
-.container-profil{
-    max-width: 1170px;
-    background-color: #fff;
-    margin: 0 auto;
-    height: 68px;
-    display: flex;
-    flex-direction: row;
-}
-.links-nav-profil a:hover {
-    color: blue;
- }
-.title-profil span{
-    font-family: var(--secondary-font); 
-    font-weight: 700;
-    size: 26px;
-    display: flex;
-    flex-direction: row;
-    color: #2196F3;
-
-}
-.title-profil{
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    font-size: 26px;
-    display: flex;
-    flex-direction: row;
-}
-.links-profil a{
-    display: flex;
-    flex-direction: row;
-    font-size: 20px; 
-    color: black;
-}
-.links-profil{
-    display: flex;
-    flex-direction: row;
-    font-size: 20px; 
-    gap: 50px;
+  font-family: var(--main-font);
 }
 
-.links-nav-profil{
-    display: flex;
-    color: black;
-}
-.link-email {
-    margin-left: 344px;
-}
-/* ------------------------------------------------------------------------------------------------------- */
-#Decision button{
-    cursor: pointer;
+.profil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
 }
 
-.container-Decision{
-    background-image: url(../images/main/Decision/Decision_1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 1600px;
-    height: 600px;
-}
-.Team{
-    background-color: #F5F4FA;
-    width: 1600px;
-    height: 648px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-.Team p{
-    background-color: white;
-    text-align: center;
-}
-.team-workers{
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    
-}
-.team-workers img{
-    width: 270px;
-    height: 260px;
-    display: flex;
-    flex-direction: row;
-}
-.title-team{
-    display: flex;
-    justify-content: center;
-    font-weight: 700;
-    font-size: 36px;
-    letter-spacing: 3%;
-    text-align: center;
-    margin-top: 94px;
-    padding-bottom: 50px;
-}
-.name-team{
-    font-weight: 600;
-    padding-top: 30px;
-    line-height: 18.75px;
-}
-.job-team{
-    color: #757575;
-    padding-bottom: 30px;
-    padding-top: 10px;
-}
-.footer{
-    background-color: #2F303A;
-    width: 1600px;
-    height: 252px;
-    padding-top: 60px;
-    padding-left: 215px;
-    display: flex;
-    flex-direction: column;
-}
-.footer p{
-    color: white;
-    font-weight: 400;
-    font-size: 14px;
-    font-family: var(--main-font);
-    text-align: left;
-    padding-top: 20px;
-}
-.footer a{
-    color: white;
-    display: flex;
-    font-size: 14px;
-    opacity: 0.6;
+.container-profil {
+  width: 1600px;
+  height: 80px;
+  display: flex;
 }
 
-.container-footer{
-    display: flex;
-    flex-direction: column;
-}
-.title-footer{
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 24px;
-}
-.Decision-title{
-    font-weight: 900;
-    size: 44px;
-    line-height: 60px;
-    display: flex;
-    justify-content: center;
-    font-size: 44px;
-    color: white;
-    text-align: center;
-}
-.Decision-button{
-    font-weight: 700;
-    size: 16px;
-    border-radius: 4px;
-    margin: 0 auto;
-    background-color: #2196F3;
-    color: white;
-    width: 216px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.items-doings h4{
-    font-weight: 700;
-    font-size: 14px;
-    width: 270px;
-    height: 16px;
-    padding-bottom: 10px;
-}
-.items-doings p{
-    font-weight: 400;
-    font-size: 14px;
-    width: 270px;
-    height: 72px;
-    line-height: 24px;
-    letter-spacing: 3%;
-}
-.title-img-doings{
-    font-weight: 700;
-    font-size: 36px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.title-profil {
+  font-size: 26px;
 }
 
-.container-Decision{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.items-doings{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 94px;
-    margin-bottom: 94px;
-    gap: 30px;
-}
-.Doings-img{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 94px;
-}
-.img-doings{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    padding-top: 50px;
+.links-nav-profil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.item-doings:nth-child(1)::before{
-    content: url(../images/main/Possibilities/possibilities_1.jpg);
+.links-profil {
+  display: flex;
+  flex-direction: row;
 }
-.item-doings:nth-child(2)::before{
-    content: url(../images/main/Possibilities/possibilities_2.jpg);
-}
-.item-doings:nth-child(3)::before{
-    content: url(../images/main/Possibilities/possibilities_3.jpg);
-}
-.item-doings:nth-child(4)::before{
-    content: url(../images/main/Possibilities/possibilities_4.jpg);
-}
-.title-doings{
-    margin-top: 30px;
-}
-.item-team{
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
-    border-radius: 0px 0px 4px 4px;
-    
-}
+
+.list_info {
+  display: flex;
+  flex-direction: row;
+}/*# sourceMappingURL=style.css.map */

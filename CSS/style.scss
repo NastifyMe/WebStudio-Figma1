@@ -1,0 +1,60 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+:root{
+    --main-font:"Roboto", sans-serif;
+    --secondary-font:"Raleway", sans-serif;
+}
+body {
+    font-family: var(--main-font);
+
+}
+// Header-------------------------------------------------------------------------------------------
+.profil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.container-profil {
+    width: 1600px;
+    height: 80px;
+    display: flex;
+}
+.title-profil {
+    font-size: 26px;
+}
+.container_studio {
+
+
+}
+.links-nav-profil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.links-profil {
+    display: flex;
+    flex-direction: row;
+}
+.link {
+}
+.container_links {
+    
+}
+.links_profil_info {
+}
+.list_info {
+    display: flex;
+    flex-direction: row;
+}
+.link-email {
+}
+.link-tel {
+}
